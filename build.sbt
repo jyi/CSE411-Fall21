@@ -14,7 +14,7 @@ lazy val commonSettings = Seq(
   javacOptions in(Compile, doc) := Seq("-notimestamp", "-linksource"),
   libraryDependencies ++= Seq(
     "org.scala-lang.modules" %% "scala-java8-compat" % "0.9.1",
-    "org.antlr" % "antlr4-runtime" % "4.8-1",
+    "org.antlr" % "antlr4-runtime" % "4.9.2",
     "org.antlr" % "ST4" % "4.3.1",
     "org.ow2.asm" % "asm" % "8.0.1",
     "org.ow2.asm" % "asm-commons" % "8.0.1",
